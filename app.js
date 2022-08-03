@@ -11,10 +11,10 @@ function calculate() {
     } else if (imc < 29.9) {
       text="Você está com sobrepeso";
     } else if (imc < 39.9) {
-      text="Você está com obesidade";
+      text="Você está com obesidade I";
     } else if (imc > 39.9) {
-      text="Você está com obesidade mórbida";
+      text="Você está com obesidade II";
     }
 
-    document.getElementById("text_area").innerText=text + '\n' + 'Seu IMC é de:' + imc;
+    document.getElementById("text_area").innerText=text + '           ' + 'Seu IMC é: ' + imc.toFixed(1);
   }
