@@ -1,0 +1,52 @@
+h2 {
+    color: #d4d4d2;
+}
+
+h1 {
+    margin-block-start: 0%;
+    color: #FFF;
+}
+
+.calculadora {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    height: 1.5em;
+}
+
+textarea{
+    width: 100%;
+    margin-top: 2em;
+}
+
+.input-area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    background-color: #1C1C1C;
+    margin: 0 auto;
+    display: inline-flex;
+    padding: 2em;
+    border-radius: 1em;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    height: 3em;
+    width: 100%;
+    background-color: #FF9500;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+
+}
